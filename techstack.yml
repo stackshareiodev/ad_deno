@@ -1,12 +1,12 @@
 repo_name: stackshareiodev/ad_deno
-report_id: 0bb6eed1db5294999f10ee80f49ebf7e
+report_id: ae5112f06ca51b569cbedaf2016946fc
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-08T17:38:46+00:00'
+timestamp: '2024-02-09T12:44:12+00:00'
 requested_by: dsherret
 provider: github
 branch: main
-detected_tools_count: 40
+detected_tools_count: 18
 tools:
 - name: C lang
   description: One of the most widely used programming languages of all time
@@ -83,19 +83,6 @@ tools:
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
   detection_source_url: https://github.com/stackshareiodev/ad_deno
   detection_source: Repo Metadata
-- name: Node.js
-  description: A platform built on Chrome's JavaScript runtime for easily building
-    fast, scalable network applications
-  website_url: http://nodejs.org/
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Frameworks (Full Stack)
-  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
 - name: React
   description: A JavaScript library for building user interfaces
   website_url: https://reactjs.org/
@@ -120,19 +107,6 @@ tools:
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
   detection_source_url: https://github.com/stackshareiodev/ad_deno
   detection_source: Repo Metadata
-- name: ESLint
-  description: The fully pluggable JavaScript code quality tool
-  website_url: http://eslint.org/
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Code Review
-  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -169,20 +143,6 @@ tools:
   detection_source: ".github/mtime_cache/action.yml"
   last_updated_by: Bert Belder
   last_updated_on: 2021-04-10 06:46:27.000000000 Z
-- name: Jest
-  description: Painless JavaScript Unit Testing
-  website_url: http://facebook.github.io/jest/
-  version: 27.5.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Javascript Testing Framework
-  image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
 - name: NuGet
   description: The package manager for .NET
   website_url: https://www.nuget.org/
@@ -195,20 +155,6 @@ tools:
   detection_source: cli/Cargo.toml
   last_updated_by: Ryan Dahl
   last_updated_on: 2019-03-30 18:45:36.000000000 Z
-- name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
-  website_url: https://prettier.io/
-  version: 2.6.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Code Review
-  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
 - name: npm
   description: The package manager for JavaScript.
   website_url: https://www.npmjs.com/
@@ -217,10 +163,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/tests/testdata/run/with_package_json/no_deno_json/package.json
-  detection_source: cli/tests/testdata/run/with_package_json/no_deno_json/package.json
+  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/tests/testdata/commonjs/package.json
+  detection_source: cli/tests/testdata/commonjs/package.json
   last_updated_by: Bartek Iwańczuk
-  last_updated_on: 2023-02-20 18:14:06.000000000 Z
+  last_updated_on: 2022-08-09 19:06:01.000000000 Z
 - name: Tape
   description: 'i''m the package manager for javascript. problems? try @npm_support
     and #npm on freenode.'
@@ -232,86 +178,6 @@ tools:
   detection_source: cli/tests/testdata/commonjs/node_modules/left-pad/package.json
   last_updated_by: Bartek Iwańczuk
   last_updated_on: 2022-08-09 19:06:01.000000000 Z
-- name: chalk
-  description: terminal colors
-  website_url: https://github.com/chalk/chalk
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/8072/13122722.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/tests/testdata/run/with_package_json/no_deno_json/package.json
-  detection_source: cli/tests/testdata/run/with_package_json/no_deno_json/package.json
-  last_updated_by: Bartek Iwańczuk
-  last_updated_on: 2023-02-22 22:21:05.000000000 Z
-- name: "@types/crypto-js"
-  description: TypeScript definitions for crypto-js
-  package_url: https://www.npmjs.com/@types/crypto-js
-  version: 4.1.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/17916/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-- name: "@types/jest"
-  description: TypeScript definitions for Jest
-  package_url: https://www.npmjs.com/@types/jest
-  version: 27.4.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-- name: "@types/node"
-  description: TypeScript definitions for Node.js
-  package_url: https://www.npmjs.com/@types/node
-  version: 17.0.29
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-- name: "@typescript-eslint/eslint-plugin"
-  description: TypeScript plugin for ESLint
-  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
-  version: 5.21.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-- name: "@typescript-eslint/parser"
-  description: An ESLint custom parser which leverages TypeScript ESTree
-  package_url: https://www.npmjs.com/@typescript-eslint/parser
-  version: 5.21.0
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
 - name: benchmark
   description: A benchmarking library that supports high-resolution timers &amp; returns
     statistically significant results
@@ -327,139 +193,6 @@ tools:
   detection_source: cli/tests/testdata/commonjs/node_modules/left-pad/package.json
   last_updated_by: Bartek Iwańczuk
   last_updated_on: 2022-08-09 19:06:01.000000000 Z
-- name: chalk
-  description: Terminal string styling done right
-  package_url: https://www.npmjs.com/chalk
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/tests/testdata/run/with_package_json/no_deno_json/package.json
-  detection_source: cli/tests/testdata/run/with_package_json/no_deno_json/package.json
-  last_updated_by: Bartek Iwańczuk
-  last_updated_on: 2023-02-22 22:21:05.000000000 Z
-- name: crypto-js
-  description: JavaScript library of crypto standards
-  package_url: https://www.npmjs.com/crypto-js
-  version: 4.1.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16283/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-  vulnerabilities:
-  - name: crypto-js PBKDF2 1,000 times weaker than specified in 1993 and 1.3M times
-      weaker than current standard
-    cve_id: CVE-2023-46233
-    cve_url: https://github.com/advisories/GHSA-xwcq-pm8m-c4vf
-    detected_date: Oct 26
-    severity: critical
-    first_patched: 4.2.0
-- name: eslint-config-prettier
-  description: Turns off all rules that are unnecessary or might conflict with Prettier
-  package_url: https://www.npmjs.com/eslint-config-prettier
-  version: 8.5.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-- name: eslint-import-resolver-typescript
-  description: TypeScript .ts .tsx module resolver for `eslint-plugin-import`
-  package_url: https://www.npmjs.com/eslint-import-resolver-typescript
-  version: 2.7.1
-  license: ISC
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-- name: eslint-plugin-eslint-comments
-  description: Additional ESLint rules for ESLint directive comments
-  package_url: https://www.npmjs.com/eslint-plugin-eslint-comments
-  version: 3.2.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/17716/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-- name: eslint-plugin-flowtype
-  description: Flowtype linting rules for ESLint
-  package_url: https://www.npmjs.com/eslint-plugin-flowtype
-  version: 8.0.3
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15940/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-- name: eslint-plugin-import
-  description: Import with sanity
-  package_url: https://www.npmjs.com/eslint-plugin-import
-  version: 2.26.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-- name: eslint-plugin-node
-  description: Additional ESLint's rules for Node.js
-  package_url: https://www.npmjs.com/eslint-plugin-node
-  version: 11.1.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-- name: form-data
-  description: A library to create readable "multipart/form-data" streams
-  package_url: https://www.npmjs.com/form-data
-  version: 4.0.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16415/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
 - name: left-pad
   description: String left pad
   package_url: https://www.npmjs.com/left-pad
@@ -474,34 +207,6 @@ tools:
   detection_source: cli/tests/testdata/commonjs/package.json
   last_updated_by: Bartek Iwańczuk
   last_updated_on: 2022-08-09 19:06:01.000000000 Z
-- name: np
-  description: A better `npm publish`
-  package_url: https://www.npmjs.com/np
-  version: 7.6.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16247/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
-- name: rimraf
-  description: A deep deletion module for node
-  package_url: https://www.npmjs.com/rimraf
-  version: 3.0.2
-  license: ISC
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
 - name: tape
   description: Tap-producing test harness for node and browsers
   package_url: https://www.npmjs.com/tape
@@ -515,18 +220,3 @@ tools:
   detection_source: cli/tests/testdata/commonjs/node_modules/left-pad/package.json
   last_updated_by: Bartek Iwańczuk
   last_updated_on: 2022-08-09 19:06:01.000000000 Z
-- name: ts-jest
-  description: A preprocessor with source maps support to help use TypeScript with
-    Jest
-  package_url: https://www.npmjs.com/ts-jest
-  version: 27.1.4
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: https://github.com/stackshareiodev/ad_deno/blob/main/cli/bench/testdata/npm/hono/package.json
-  detection_source: cli/bench/testdata/npm/hono/package.json
-  last_updated_by: Divy Srivastava
-  last_updated_on: 2022-08-19 10:24:54.000000000 Z
